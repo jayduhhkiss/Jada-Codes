@@ -1,0 +1,194 @@
+/**********************************
+GENERAL
+***********************************/
+html, body {
+    height: 100%;
+}
+
+#toplevel {
+    height: 100%;
+    width: 100%;
+    background:url(../img/Jada.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+/**********************************
+HEADING
+***********************************/    
+#logo {
+    float: right;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+nav {
+    display: block;
+    clear: both;
+    position: fixed;
+    right: 5%;
+    top: 25%;
+}
+
+
+/**********************************
+PAGE: RESUME
+***********************************/
+#resume {
+    background-color: #d88b9d;
+    height: 100%;
+}
+
+#container {
+    padding-top: 100px;
+}
+
+#console {
+    border-top: 15px solid #C5BFC6;
+    border-radius: 5px;
+    width: 670px;
+    padding: 40px;
+    margin: 0 auto;
+    background: #383737;
+    text-align: left;
+    font-family: ‘Lucida Console’, Monaco, monospace;
+    font-size: 14px;
+}
+
+.question {
+    color: #339635;
+}
+
+.answer {
+    color: #1eff3b;
+}
+
+section {
+    clear: both;
+}
+
+/**********************************
+PAGE: VIDEO
+***********************************/
+#video {
+    background: #fdf1e5;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#left {
+    width: 50%; 
+    float: left;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-top: 157px;
+}
+
+#right {
+    margin-right: 90px; 
+    padding-right: 50px;
+    float: right;
+    width: 400px;
+    padding-top: 50px;
+}
+
+#video p {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #383737;
+}
+
+#eu {
+    text-decoration: underline;
+}
+
+#hidden {
+    display: none;
+}
+
+#mytext:hover #hidden {
+    display: inline-block;
+    color: #f7bb1c;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#mytext:hover #fullsentence {
+    display: none;
+}
+    
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+#portfolio {
+    height: 100%;
+    background: url(../img/hexellence.png) repeat fixed; 
+}
+
+#innerlevel {
+    background-color: red;
+    position: relative;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+#gallery {
+    background-color: red;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#gallery li {
+    background-color: #d88b9d;
+    width: 20%;
+}
+
+#gallery p {
+    background-color: #fdf1e5;
+
+}
+
+
+
+#OYI { 
+    border: 5px solid #f7bb1c;
+}
+
+/**********************************
+FOOTER
+***********************************/
+footer {
+    text-align: center;
+}
+
+/**********************************
+COLORS / BACKGROUND
+***********************************/
+
+/* site body */
+
+
+/* header */
+
+
+/* nav background on mobile */
+
+
+/* links */
+
+
+/* nav link */
+
+
+/* selected nav link */

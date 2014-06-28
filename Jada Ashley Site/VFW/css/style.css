@@ -1,0 +1,113 @@
+/**********************************
+GENERAL
+***********************************/
+body {
+    background: url(../img/ps_neutral.png);
+}
+
+#wrapper {
+    background: red;
+    margin: 0 100px;
+}
+
+/**********************************
+HEADER
+***********************************/
+#toplevel nav {
+    background-color: black;
+    color: white;
+    font-family: 'Droid Serif', serif;
+    font-size: 28px;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 30px;
+}
+
+#toplevel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#toplevel li {
+    display: inline;
+    margin: 0 30px;
+}
+
+#toplevel img {
+    float: left;
+}
+
+#toplevel h1 {
+    position: relative;
+    font-variant: small-caps;
+    font-family: 'Droid Serif', serif;
+    font-size: 72px;
+}
+
+/**********************************
+CONTENT
+***********************************/
+.content {
+    clear: both;
+    margin: 0 auto;
+    background: blue;
+}
+
+.content div {
+    height: 400px;
+    width: 357px;
+    background: coral;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/**********************************
+FOOTER
+***********************************/
+footer {
+    background: white;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#branches {
+    text-align: center;
+}
+
+#branches li {
+    display: inline;
+    padding: 0;
+    margin: 0 10px;
+}
+
+#branches img {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+footer p {
+    background: blue;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.contact:hover {
+    color: #f7bb1c;
+}
+
+footer #credit {
+    text-align: right;
+}
+
+#credit:hover {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #f7bb1c;
+}
