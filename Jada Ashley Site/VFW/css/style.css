@@ -2,11 +2,11 @@
 GENERAL
 ***********************************/
 body {
-    background: url(../img/ps_neutral.png);
+    background: url(../img/veterans.png) repeat;
 }
 
 #wrapper {
-    background: red;
+    background: white;
     margin: 0 100px;
 }
 
@@ -23,6 +23,7 @@ HEADER
     padding: 30px;
 }
 
+
 #toplevel ul {
     list-style-type: none;
     margin: 0;
@@ -34,6 +35,19 @@ HEADER
     margin: 0 30px;
 }
 
+#toplevel a {
+    text-decoration: none;
+    color: white;
+}
+
+#toplevel a:hover {
+    color: #f7bb1c;
+}
+
+#toplevel a:active {
+    color: white;
+}
+
 #toplevel img {
     float: left;
 }
@@ -42,25 +56,54 @@ HEADER
     position: relative;
     font-variant: small-caps;
     font-family: 'Droid Serif', serif;
-    font-size: 72px;
+    font-size: 78px;
 }
 
 /**********************************
-CONTENT
+PAGE: HOME
 ***********************************/
 .content {
     clear: both;
     margin: 0 auto;
-    background: blue;
 }
 
-.content div {
-    height: 400px;
-    width: 357px;
-    background: coral;
+.content img {
+    width: 33%;
     display: inline-block;
     margin: 0 auto;
     padding: 0;
+}
+
+
+/**********************************
+PAGE: RESOURCES 
+***********************************/
+.resources {
+    text-align: center;
+}
+
+.resources a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.resources a:hover {
+    color: blue;
+}
+
+/**********************************
+PAGE: ABOUTUS
+***********************************/
+.aboutus img {
+    width: 33%;
+}
+
+/**********************************
+PAGE: PHOTOS
+***********************************/
+.photos img {
+    width: 100%;
 }
 
 /**********************************
@@ -90,7 +133,7 @@ footer {
 }
 
 footer p {
-    background: blue;
+    text-align: center;
 }
 
 .contact {
@@ -103,11 +146,38 @@ footer p {
     color: #f7bb1c;
 }
 
-footer #credit {
+
+/**********************************
+FOOTER
+***********************************/
+#credit {
     text-align: right;
+    font-family: 'Raleway', sans-serif;
 }
 
-#credit:hover {
+#credit a {
+    text-decoration: none;
+    color: black;
+}
+
+#credit a:hover {
     font-family: 'Gloria Hallelujah', cursive;
     color: #f7bb1c;
+}
+
+/**********************************
+MOBILE PHONE
+***********************************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+{ 
+    #toplevel nav {
+        background-color: black;
+        color: white;
+        font-family: 'Droid Serif', serif;
+        font-size: 40px;
+        font-variant: small-caps;
+        text-align: center;
+    }
 }
