@@ -122,10 +122,10 @@ PAGE: RESUME
 MEDIA QUERY : PHONE
 ***********************************/
 
-@media (min-width : 320px) and (max-width : 480px) {
+@media (min-width : 320px) and (max-width : 1180px) {
 	/* General */
 	.navigation {
-		font-size: .5em;
+		font-size: 80%;
 		margin-bottom: 3%;
 		font-family: 'Raleway', sans-serif;
 	}
@@ -137,7 +137,7 @@ MEDIA QUERY : PHONE
 
 	nav {
 		position: relative;
-		right: 4%;
+		right: 2.7%;
 	}
 
 	/* Body */
@@ -164,9 +164,52 @@ MEDIA QUERY : PHONE
 	}
 }
 
+/**********************************
+MEDIA QUERY : TABLET 
+***********************************/
+@media (min-width : 1181px) and (max-width : 1030px) {
 
+	/* General */
+	.navigation {
+		font-size: 2em;
+		margin-bottom: 3%;
+		font-family: 'Raleway Dots', sans-serif;
+	}
 
+	li {
+		padding-right: 2%;
+		margin-right: 2%;
+	}
 
+	nav {
+		position: relative;
+		right: -1%;
+	}
+
+	/* Body */
+
+	img {
+		display: block;
+		width: 70%;
+	}
+
+	#copy {
+		display: block;
+		width: 70%;
+	}
+
+	h3 {
+		font-size: 2em;
+		margin: 0
+		padding: 0;
+	}
+
+	p {
+		font-weight: 900;
+		text-align: center;
+	}
+}
+}
 
 
 
