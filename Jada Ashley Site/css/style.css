@@ -122,10 +122,10 @@ PAGE: RESUME
 MEDIA QUERY : PHONE
 ***********************************/
 
-@media (min-width : 320px) and (max-width : 1180px) {
+@media (min-width : 320px) and (max-width : 639px) {
 	/* General */
 	.navigation {
-		font-size: 80%;
+		font-size: 100%;
 		margin-bottom: 3%;
 		font-family: 'Raleway', sans-serif;
 	}
@@ -163,6 +163,57 @@ MEDIA QUERY : PHONE
 		text-align: center;
 	}
 }
+
+
+
+/**********************************
+MEDIA QUERY : AWKWARD MIDDLE GROUND
+	RALEWAY DOTS
+	ONE COLUMN LAYOUT
+***********************************/
+@media (min-width : 640px) and (max-width : 1180px) {
+	/* General */
+	
+	.navigation {
+		font-size: 2em;
+		margin-bottom: 3%;
+		font-family: 'Raleway Dots', sans-serif;
+	}
+
+	li {
+		padding-right: 2%;
+		margin-right: 2%;
+	}
+
+	nav {
+		position: relative;
+		right: 2%;
+	}
+
+	/* Body */
+
+	img {
+		display: block;
+		width: 70%;
+	}
+
+	#copy {
+		display: block;
+		width: 70%;
+	}
+
+	h3 {
+		font-size: 2em;
+		margin: 0
+		padding: 0;
+	}
+
+	p {
+		font-weight: 900;
+		text-align: center;
+	}
+}
+
 
 /**********************************
 MEDIA QUERY : TABLET 
