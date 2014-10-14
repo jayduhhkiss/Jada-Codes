@@ -119,6 +119,36 @@ PAGE: RESUME
 ***********************************/
 
 /**********************************
+PAGE: PRESS
+***********************************/
+
+.videoWrapper {
+	display: block;
+	clear: both;
+	position: relative;
+	padding-top: 29%;
+	width: 40%;
+	height: 0;
+	overflow: hidden;
+	left: 45%;
+	top: 3%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.press {
+	width: 40%;
+	position: relative;
+	left: 5%;
+	top: -47%;
+}
+
+/**********************************
 MEDIA QUERY : PHONE
 ***********************************/
 
@@ -162,6 +192,34 @@ MEDIA QUERY : PHONE
 		font-weight: 900;
 		text-align: center;
 	}
+
+	/*Press Page*/
+
+	.videoWrapper {
+	display: block;
+	clear: both;
+	position: relative;
+	padding-top: 29%;
+	width: 40%;
+	height: 0;
+	overflow: hidden;
+	left: 45%;
+	top: 3%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.press {
+	width: 40%;
+	position: relative;
+	left: 5%;
+	top: -18%;
+}
 }
 
 
