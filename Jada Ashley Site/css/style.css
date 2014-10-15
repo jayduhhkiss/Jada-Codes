@@ -55,7 +55,7 @@ NAVIGATION
 /**********************************
 PAGE: HOME
 ***********************************/
-	img {
+	#profpic {
 		float: right;
 		width: 35%;
 		display: inline-block;
@@ -114,6 +114,30 @@ PAGE: HOME
 /**********************************
 PAGE: WRITING
 ***********************************/
+	.JAS {
+		margin: 0 auto;
+	}
+
+	.writing {
+		clear: both;
+	}
+
+	.writing a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	.writing a:hover {
+		color: #f7bb1c;
+	}
+
+	.writing a:active {
+		color: #f7bb1c;
+	}
+
+	.writing p {
+		text-align: center;
+	}
 
 /**********************************
 PAGE: RESUME
@@ -230,7 +254,7 @@ MEDIA QUERY : PHONE
 
 	/* Body */
 
-	img {
+	#profpic {
 		display: block;
 		width: 70%;
 	}
@@ -354,7 +378,7 @@ MEDIA QUERY : TABLET
 
 	/* Body */
 
-	img {
+	#profpic {
 		display: block;
 		width: 70%;
 	}
