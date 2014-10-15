@@ -131,6 +131,7 @@ PAGE: PRESS
 	text-align: center;
 	margin: 0 auto;
 }
+
 .right {
 	float: right;
 	display: inline-block;
@@ -207,9 +208,14 @@ MEDIA QUERY : PHONE
 		background: red;
 	}
 
-	.navigation {
-		font-size: 90%;
-		font-family: 'Raleway', sans-serif;
+	nav {
+		padding-top: 2%;
+		position: relative;
+		right: 2.7%;
+	}
+
+	ul {
+		margin-top: 0;
 	}
 
 	li {
@@ -217,9 +223,9 @@ MEDIA QUERY : PHONE
 		margin-right: 2%;
 	}
 
-	nav {
-		position: relative;
-		right: 2.7%;
+	.navigation {
+		font-size: 90%;
+		font-family: 'Raleway', sans-serif;
 	}
 
 	/* Body */
@@ -247,18 +253,31 @@ MEDIA QUERY : PHONE
 
 	/*Press Page*/
 
+	.parent {
+		padding: 0;
+		padding-top: 30%;
+	}
+
+	.right {
+		float: none;
+		display: block;
+		clear: both;
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+		padding-left: 25%;
+	}
+
 	.videoWrapper {
-	display: block;
-	clear: both;
-	position: relative;
-	padding: 0;
-	padding-top: 55%;
-	width: 80%;
-	height: 0;
-	overflow: hidden;
-	top: 3%;
-	left: 10%;
-	margin: 0;
+		display: block;
+		clear: both;
+		position: relative;
+		padding: 0;
+		padding-top: 55%;
+		width: 80%;
+		height: 0;
+		overflow: hidden;
+		margin: 0;
 
 	}
 
@@ -271,6 +290,7 @@ MEDIA QUERY : PHONE
 	}
 
 	.press {
+		float: none;
 		margin-top: 5%;
 		padding: 0;
 		width: 100%;
@@ -357,18 +377,33 @@ MEDIA QUERY : TABLET
 
 	/*Press Page*/
 
+	.parent {
+		padding: 0;
+		padding-top: 30%;
+	}
+
+	.right {
+		float: none;
+		display: block;
+		clear: both;
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+		padding-left: 15%;
+	}
+
 	.videoWrapper {
-	display: block;
-	clear: both;
-	position: relative;
-	padding: 0;
-	padding-top: 55%;
-	width: 80%;
-	height: 0;
-	overflow: hidden;
-	top: 3%;
-	left: 10%;
-	margin: 0;
+		display: block;
+		clear: both;
+		position: relative;
+		padding: 0;
+		padding-top: 55%;
+		width: 80%;
+		height: 0;
+		overflow: hidden;
+		top: 3%;
+		left: 10%;
+		margin: 0;
 
 	}
 
