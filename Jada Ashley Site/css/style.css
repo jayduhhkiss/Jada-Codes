@@ -12,8 +12,8 @@ HEADING
 		padding: 0; 
 		margin: 0;
 		margin-top: 3%;
+		margin-bottom: 3%; 
 		float: right;
-		width: 35%;
 	}
 
 /**********************************
@@ -61,7 +61,7 @@ PAGE: HOME
 		width: 35%;
 		display: inline-block;
 		clear: both;
-		margin: 2% 15% 0 0;
+		margin: 0 15% 0 0;
 		padding: 0;
 		border-radius: 2em;
 	}
@@ -70,7 +70,7 @@ PAGE: HOME
 		float: left;
 		width: 30%;
 		display: inline-block;
-		margin: 2% 0 0 15%;
+		margin: 0 0 0 15%;
 		padding: 0;
 	}
 
@@ -119,13 +119,14 @@ PAGE: WRITING
 		width: 35%;
 		display: block;
 		clear: both;
-		margin: 2% 0 2% 33%;
-		padding: 0;
+		margin: 4% 0 2% 33%;
 		border-radius: 2em;
 	}
 
 	.writing {
 		clear: both;
+		padding: 0;
+		margin: 0;
 	}
 
 	.writing a {
@@ -155,7 +156,6 @@ PAGE: PRESS
 
 .parent {
 	width: 100%;
-	padding-top: 16%;
 	margin-bottom: 200%;
 	padding-bottom: 20%;
 	text-align: center;
@@ -223,9 +223,6 @@ PAGE: PRESS
 	line-height: 130%
 }
 
-
-
-
 /**********************************
 MEDIA QUERY : PHONE
 	RALEWAY
@@ -234,9 +231,9 @@ MEDIA QUERY : PHONE
 
 @media (min-width : 320px) and (max-width : 639px) {
 	/* General */
-	body {
+	/*body {
 		background: red;
-	}
+	}*/
 
 	nav {
 		padding-top: 2%;
@@ -256,6 +253,10 @@ MEDIA QUERY : PHONE
 	.navigation {
 		font-size: 90%;
 		font-family: 'Raleway', sans-serif;
+	}
+
+	#logo {
+		width: 70%;
 	}
 
 	/* Body */
@@ -351,6 +352,13 @@ MEDIA QUERY : PHONE
 		padding: 0;
 		text-align: center;
 	}
+
+	/*Writing Page*/
+
+	#JAS {
+		width: 70%;
+		margin: 4% 0 2% 15%;
+	}
 }
 
 
@@ -362,9 +370,9 @@ MEDIA QUERY : TABLET
 ***********************************/
 @media (min-width : 640px) and (max-width : 1180px) {
 	/* General */
-	body {
+	/*body {
 		background: blue;
-	}
+	}*/
 	
 	.navigation {
 		font-size: 2em;
@@ -380,6 +388,10 @@ MEDIA QUERY : TABLET
 	nav {
 		position: relative;
 		right: 2%;
+	}
+
+	#logo {
+		width: 70%;
 	}
 
 	/* Body */
@@ -475,6 +487,13 @@ MEDIA QUERY : TABLET
 		margin: 0;
 		padding: 0;
 		text-align: center;
+	}
+
+	/*Writing Page*/
+
+	#JAS {
+		width: 70%;
+		margin: 4% 0 2% 15%;
 	}
 }
 
