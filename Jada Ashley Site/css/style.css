@@ -13,6 +13,7 @@ HEADING
 		margin: 0;
 		margin-top: 3%;
 		float: right;
+		width: 35%;
 	}
 
 /**********************************
@@ -114,8 +115,13 @@ PAGE: HOME
 /**********************************
 PAGE: WRITING
 ***********************************/
-	.JAS {
-		margin: 0 auto;
+	#JAS {
+		width: 35%;
+		display: block;
+		clear: both;
+		margin: 2% 0 2% 33%;
+		padding: 0;
+		border-radius: 2em;
 	}
 
 	.writing {
