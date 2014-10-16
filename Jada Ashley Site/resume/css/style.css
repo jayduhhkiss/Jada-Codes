@@ -1,19 +1,80 @@
 /**********************************
+HEADING
+***********************************/
+    #logo {
+        padding-top: 1%; 
+        margin: 0;
+        margin: 0;
+        /*margin-bottom: 1%;*/ 
+        float: right;
+    }
+
+/**********************************
+NAVIGATION
+***********************************/
+    nav {
+        /*text-align: center;*/
+        clear: both;
+        margin: 0;
+        padding: 0;
+        padding-top: 1%;
+        position: fixed;
+        top: 10%;
+    }
+
+    li {
+        /*display: inline;*/
+        padding: 30% 0 4% 0;
+
+    }
+
+    .navigation {
+        text-decoration: none;
+        color: #000;
+        font-family: 'Raleway Dots', cursive;
+        font-size: 3em;
+    }
+
+    .navigation:hover {
+        color: #f7bb1c;
+    }
+
+    .navigation:active {
+        color: #f7bb1c;
+        font-weight: bold;
+    }
+
+    .navigation:visted {
+        text-decoration: none;
+    }
+
+/**********************************
 PAGE: RESUME
 ***********************************/
+
+h3 {
+        clear: both;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        margin: 0;
+        padding-bottom: 1%;
+        font-size: 2.5em;
+}
+
 #resume {
     height: 100%;
 }
 
 #container {
-    padding-top: 3%;
+    /*padding-top: 3%;*/
+    clear: both;
 }
 
 #console {
     border-top: 10px solid #C5BFC6;
     border-radius: 5px;
     width: 50%;
-    padding: 5%;
+    padding: 3%;
     margin: 0 auto;
     background: #383737;
     text-align: left;
