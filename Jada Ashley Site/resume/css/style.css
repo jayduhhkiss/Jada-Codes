@@ -1,0 +1,30 @@
+/**********************************
+PAGE: RESUME
+***********************************/
+#resume {
+    height: 100%;
+}
+
+#container {
+    padding-top: 3%;
+}
+
+#console {
+    border-top: 10px solid #C5BFC6;
+    border-radius: 5px;
+    width: 50%;
+    padding: 5%;
+    margin: 0 auto;
+    background: #383737;
+    text-align: left;
+    font-family: ‘Lucida Console’, Monaco, monospace;
+    font-size: 90%;
+}
+
+.question {
+    color: #339635;
+}
+
+.answer {
+    color: #1eff3b;
+}
