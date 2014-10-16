@@ -113,10 +113,15 @@ MEDIA QUERY : TABLET
         background: blue;
     }*/
 
+    #logo {
+        width: 70%;
+    }
+
     /*Navigation*/
 
     .navigation {
-        font-size: 2em;
+        font-size: 197%;
+        font-family: 'Raleway Dots', sans-serif;
     }
 
     nav {
@@ -179,12 +184,17 @@ MEDIA QUERY : PHONE
 @media (min-width : 320px) and (max-width : 639px) {
     /* General */
 
+    #logo {
+        width: 70%;
+    }
+
     body {
         background: red;
     }
 
     .navigation {
-        font-size: 2em;
+        font-size: 90%;
+        font-family: 'Raleway', sans-serif;
     }
 
     nav {
@@ -217,7 +227,7 @@ MEDIA QUERY : PHONE
     #mobile {
         display: initial;
     }
-    
+
     #mobile-console {
         border-top: 10px solid #C5BFC6;
         border-radius: 5px;
