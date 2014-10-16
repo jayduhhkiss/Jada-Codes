@@ -51,6 +51,14 @@ NAVIGATION
 /**********************************
 PAGE: RESUME
 ***********************************/
+#tablet {
+        display: none;
+}
+
+#mobile {
+    display: none;
+}
+
 
 h3 {
         clear: both;
@@ -69,7 +77,7 @@ h3 {
 #container {
     /*padding-top: 3%;*/
     clear: both;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 #console {
@@ -93,6 +101,74 @@ h3 {
     text-transform: lowercase;
 }
 
+/**********************************
+MEDIA QUERY : TABLET
+    RALEWAY DOTS
+    ONE COLUMN LAYOUT
+***********************************/
+@media (min-width : 640px) and (max-width : 1180px) {
+    /* General */
+
+    /*body {
+        background: blue;
+    }*/
+
+    /*Navigation*/
+
+    .navigation {
+        font-size: 2em;
+    }
+
+    nav {
+        position: initial;
+        text-align: center;
+        
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 2%;
+        margin-right: 2%;
+        margin-bottom: 0;
+        padding-bottom: 3%;
+    }
+
+    /*Resume*/
+    #container {
+        display: none;
+    }
+
+    #tablet {
+        display: initial;
+        clear: both;
+    }
+
+    #tablet-console {
+        border-top: 10px solid #C5BFC6;
+        border-radius: 5px;
+        width: 70%;
+        padding: 5%;
+        margin: 0 auto;
+        background: #383737;
+        text-align: left;
+        font-family: ‘Lucida Console’, Monaco, monospace;
+        font-size: 90%;
+        margin-bottom: 5%;
+    }
+
+    .question {
+        color: #339635;
+    }
+
+    .answer {
+        color: #1eff3b;
+        text-transform: lowercase;
+    }
+}
 
 /**********************************
 MEDIA QUERY : PHONE
@@ -106,17 +182,61 @@ MEDIA QUERY : PHONE
     body {
         background: red;
     }
-}
 
-/**********************************
-MEDIA QUERY : TABLET
-    RALEWAY DOTS
-    ONE COLUMN LAYOUT
-***********************************/
-@media (min-width : 640px) and (max-width : 1180px) {
-    /* General */
+    .navigation {
+        font-size: 2em;
+    }
 
-    body {
-        background: blue;
+    nav {
+        position: initial;
+        text-align: center;
+        
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 2%;
+        margin-right: 2%;
+        margin-bottom: 0;
+        padding-bottom: 3%;
+    }
+
+    /*Resume*/
+    #container {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #mobile {
+        display: initial;
+    }
+    
+    #mobile-console {
+        border-top: 10px solid #C5BFC6;
+        border-radius: 5px;
+        width: 70%;
+        padding: 5%;
+        margin: 0 auto;
+        background: #383737;
+        text-align: left;
+        font-family: ‘Lucida Console’, Monaco, monospace;
+        font-size: 90%;
+        margin-bottom: 5%;
+    }
+
+    .question {
+        color: #339635;
+    }
+
+    .answer {
+        color: #1eff3b;
+        text-transform: lowercase;
     }
 }
