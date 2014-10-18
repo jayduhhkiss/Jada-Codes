@@ -51,15 +51,6 @@ NAVIGATION
 /**********************************
 PAGE: RESUME
 ***********************************/
-#tablet {
-        display: none;
-}
-
-#mobile {
-    display: none;
-}
-
-
 h3 {
         clear: both;
         text-align: center;
@@ -68,6 +59,20 @@ h3 {
         padding-bottom: 1%;
         font-size: 2.5em;
         font-weight: normal;
+}
+
+#resume_pdf {
+    text-decoration: none;
+    color: #000;
+}
+
+#resume_pdf:hover {
+    color: #f7bb1c;
+}
+
+#resume_pdf:active {
+    color: #f7bb1c;
+    font-weight: bold;
 }
 
 #resume {
@@ -97,8 +102,19 @@ h3 {
 }
 
 .answer {
+    display: inline-block;
     color: #1eff3b;
     text-transform: lowercase;
+    margin: 0;
+    margin-left: 5%;
+}
+
+.indent {
+    display: block;
+    color: #1eff3b;
+    text-transform: lowercase;
+    margin: 0;
+    margin-left: 6%;
 }
 
 /**********************************
@@ -109,9 +125,9 @@ MEDIA QUERY : TABLET
 @media (min-width : 640px) and (max-width : 1180px) {
     /* General */
 
-    /*body {
+    body {
         background: blue;
-    }*/
+    }
 
     #logo {
         width: 70%;
@@ -143,28 +159,6 @@ MEDIA QUERY : TABLET
     }
 
     /*Resume*/
-    #container {
-        display: none;
-    }
-
-    #tablet {
-        display: initial;
-        clear: both;
-    }
-
-    #tablet-console {
-        border-top: 10px solid #C5BFC6;
-        border-radius: 5px;
-        width: 70%;
-        padding: 5%;
-        margin: 0 auto;
-        background: #383737;
-        text-align: left;
-        font-family: ‘Lucida Console’, Monaco, monospace;
-        font-size: 90%;
-        margin-bottom: 5%;
-    }
-
     .question {
         color: #339635;
     }
@@ -173,6 +167,11 @@ MEDIA QUERY : TABLET
         color: #1eff3b;
         text-transform: lowercase;
     }
+
+    #console {
+        width: 80%;
+    }
+
 }
 
 /**********************************
@@ -188,9 +187,9 @@ MEDIA QUERY : PHONE
         width: 70%;
     }
 
-    body {
+    /*body {
         background: red;
-    }
+    }*/
 
     .navigation {
         font-size: 90%;
@@ -216,31 +215,6 @@ MEDIA QUERY : PHONE
     }
 
     /*Resume*/
-    #container {
-        display: none;
-    }
-
-    #tablet {
-        display: none;
-    }
-
-    #mobile {
-        display: initial;
-    }
-
-    #mobile-console {
-        border-top: 10px solid #C5BFC6;
-        border-radius: 5px;
-        width: 70%;
-        padding: 5%;
-        margin: 0 auto;
-        background: #383737;
-        text-align: left;
-        font-family: ‘Lucida Console’, Monaco, monospace;
-        font-size: 90%;
-        margin-bottom: 5%;
-    }
-
     .question {
         color: #339635;
     }
@@ -248,5 +222,9 @@ MEDIA QUERY : PHONE
     .answer {
         color: #1eff3b;
         text-transform: lowercase;
+    }
+
+    #console {
+        width: 80%;
     }
 }

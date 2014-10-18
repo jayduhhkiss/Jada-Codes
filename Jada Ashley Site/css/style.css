@@ -53,6 +53,16 @@ NAVIGATION
 		text-decoration: none;
 	}
 
+	#resume_pdf {
+		text-decoration: none;
+		color: #000;
+		border-bottom: 1px dashed #ccc;
+	}
+
+	#resume_pdf:hover {
+		border-bottom: 2px dashed #f7bb1c;
+	}
+
 /**********************************
 PAGE: HOME
 ***********************************/
