@@ -125,9 +125,9 @@ MEDIA QUERY : TABLET
 @media (min-width : 640px) and (max-width : 1180px) {
     /* General */
 
-    body {
+   /* body {
         background: blue;
-    }
+    }*/
 
     #logo {
         width: 70%;
