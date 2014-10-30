@@ -4,7 +4,7 @@ console.log("Hello again!");
  
 //added function to variable
 var name = prompt("What is your name?");
-alert("Hello " + name);
+//alert("Hello " + name);
 
 //reassigned the variable
 name = "Nick";
