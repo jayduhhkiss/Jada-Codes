@@ -15,8 +15,14 @@ console.log("Hello again!");
 // If Expressions
 console.log("Before");
 
+//false-y values will not print the following. 
+//(0) is false (1) is true
 if(false) {
 	console.log("If block");
+}
+
+else {
+	console.log("Else block");
 }
 
 console.log("After");
