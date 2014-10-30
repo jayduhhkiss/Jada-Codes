@@ -4,3 +4,5 @@ console.log("Hello again!");
 var name = prompt("What is your name?");
 
 alert("Hello " + name);
+
+console.log("The user's name is " + name);
