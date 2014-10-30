@@ -15,7 +15,7 @@ console.log("Hello again!");
 // If Expressions
 console.log("Before");
 
-if(true) {
+if(false) {
 	console.log("If block");
 }
 
