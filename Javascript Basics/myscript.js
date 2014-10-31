@@ -1,22 +1,15 @@
-console.log("Before");
+// Array : List of other values
 
-/*
-var counter = 10; 
+var friends = ["Nick", "Michael", "Amit", "Allison"];
 
-while (counter) {
-	console.log("Hello World");
-	console.log("Hi");
-	counter = counter - 1;
-}
- 
-while (prompt("What's your name?")) {
-	console.log("Got your name");
-}
-*/
+console.log(friends);
 
-for (var counter = 10; counter; counter--) {
-	console.log(counter, "Hello World");
+// how many friends I have
+console.log(friends.length);
 
-}
+//print Nick
+console.log(friends[0]);
 
-console.log("After");
+//use var to print
+var friendNumber = 2;
+console.log(friends[friendNumber]);
