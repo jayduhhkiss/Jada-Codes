@@ -1,5 +1,6 @@
 console.log("Before");
 
+/*
 var counter = 10; 
 
 while (counter) {
@@ -10,6 +11,12 @@ while (counter) {
  
 while (prompt("What's your name?")) {
 	console.log("Got your name");
+}
+*/
+
+for (var counter = 10; counter; counter--) {
+	console.log(counter, "Hello World");
+
 }
 
 console.log("After");
