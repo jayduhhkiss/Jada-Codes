@@ -1,13 +1,10 @@
-// console.log("Hello World") ... 10 times
+console.log("Before");
 
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
+var counter = 10; 
+
+while (counter) {
+	console.log("Hello World");
+	counter = counter - 1;
+}
  
+console.log("After");
