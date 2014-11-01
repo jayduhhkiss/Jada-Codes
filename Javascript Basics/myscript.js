@@ -1,19 +1,19 @@
-// Object = A generic object - it has properties
+// Functions store behaviours 
 
-var jada = {
-	first_name: "Jada",
-	middle_name: "Ashley",
-	last_name: "Hawkins",
-	"Employee Number": 1
+//console.log("Hello World");
+var sayHello = function () {
+	console.log("Hello World");
 }
 
+//takes in argument
+var debug = function(message) {
+	console.log("Debug", message);
+}
 
-//"Object" + "." + "key" accesses key
-console.log(jada.middle_name);
+var doubleNum = function(number) {
+	return number * 2;
+}
 
-//Must use subscript [] to access string keys
-console.log(jada["Employee Number"]);
-
-var key = "Employee Number";
-
-console.log(jada[key]);
+sayHello();
+debug("hi");
+debug(doubleNum(77))
