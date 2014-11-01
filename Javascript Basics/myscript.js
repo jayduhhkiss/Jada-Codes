@@ -41,3 +41,24 @@ else {
 
 // charAt
 console.log(whole.charAt(2));
+
+// finding substring
+// takes in the start index & the length of the string
+var world = whole.substr(6, 5);
+console.log(world);
+console.log(world.toLowerCase());
+console.log(world.toUpperCase());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
