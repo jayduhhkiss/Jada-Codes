@@ -46,6 +46,24 @@ var h = 012;
 */
 var i = 0xf0;
 
+/*
+* Parsing Numbers from Strings
+* We've been using numberical literals
+* parseInt()
+* parseFloat() ... gives floating point number
+*/
+var j = parseInt("197");
+var k = "197";
+var o = parseFloat(123.456);
+
+// the second argument allows you to say it is base 10
+var l = parseInt("019", 10);
+var m = parseInt("010111", 2);
+
+// NaN = Not a Number
+var n = parseInt("There are 23 people", 10);
+console.log(isNaN(n));
+
 
 
 
