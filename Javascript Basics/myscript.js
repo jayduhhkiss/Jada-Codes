@@ -1,19 +1,26 @@
-// Functions store behaviours 
+/*
+* Strings
+*/
 
-//console.log("Hello World");
-var sayHello = function () {
-	console.log("Hello World");
-}
+var name = "Jada";
+console.log(name);
 
-//takes in argument
-var debug = function(message) {
-	console.log("Debug", message);
-}
+var name2 = 'Jada';
+console.log(name2);
 
-var doubleNum = function(number) {
-	return number * 2;
-}
+/* 
+* Error! NEED DOUBLE QUOTES!
+* var statement = 'This is Jada's string';
+*/
+var statement = "This is Jada's string";
+console.log(statement);
 
-sayHello();
-debug("hi");
-debug(doubleNum(77))
+/* 
+* Error! 
+* var statement2 = 'He said "This is Jim's string"';
+*/
+
+var statement2 = 'He said "This is Jim\'s string"';
+console.log(statement2);
+
+// '\' is an escape character! 
