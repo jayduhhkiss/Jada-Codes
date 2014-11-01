@@ -60,11 +60,69 @@ var o = parseFloat(123.456);
 var l = parseInt("019", 10);
 var m = parseInt("010111", 2);
 
-// NaN = Not a Number
+/*
+* NaN = Not A Number
+* NaN != NaN
+*/
 var n = parseInt("There are 23 people", 10);
 console.log(isNaN(n));
 
+/*
+* Operations
+*/
 
+var add = 3 + 3;
+var sub = n - o;
+var mod = 6 % 2; 
+var div = 4 / 5; 
+var mul = 3 * 5;
+
+/*
+* Comparisons
+*/
+
+console.log(1 < 2);
+console.log(1 > 2); 
+console.log(1 <= 2);
+console.log(1 >= 1);
+console.log(1 === 1.0);
+console.log(1 === 1.5);
+
+// === checks value and type
+console.log(1 === "1"); // false
+console.log(1 == "1"); // true
+
+if (1 < 2) {
+	console.log("Yes");
+}
+
+else {
+	console.log("No");
+}
+
+/*
+* The Math Object
+*
+*/ 
+
+// Returns random value between 0 - 1
+var randomNum = Math.random();
+var zeroThruTen = Math.round(Math.random()*10);
+
+// Math.round = rounds normally
+var rounds = Math.round(2.5);
+
+// Math.floor = rounds down
+var floor = Math.floor(2.5);
+
+// Math.ceil = rounds up 
+var ceil = Math.ceil(2.5);
+
+// Math.pow = base , arg 
+var power = Math.pow(2, 2);
+
+// Math.sqrt 
+var sq = Math.sqrt(54);
 
 
 
