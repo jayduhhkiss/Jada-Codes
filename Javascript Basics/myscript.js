@@ -61,6 +61,113 @@ console.log(my_array.toString());
 var shiftedVar = my_array.shift();
 console.log(my_array.toString());
 
+/*
+* Sorting Arrays
+*/
+
+var sort_array = [10, 44, 32, 100, 0, 44, 3, 4];
+console.log(sort_array.toString());
+
+// sorts numerically
+sort_array.sort(function(a, b) {
+	return a - b;
+});
+console.log(sort_array.toString());
+
+// randomly sorted array
+sort_array.sort(function(a, b) {
+	return Math.random() - 0.5;
+});
+console.log(sort_array.toString());
+
+// reverse array 
+sort_array.reverse();
+console.log(sort_array.toString());
+
+/*
+* Accessor Methods (Non Mutating)
+*/
+
+var mu = [1, 2, 3];
+var ny = [4, 5, 6];
+
+// concat (adds arrays by creating a new array)
+var cat = mu.concat(ny);
+var cat2 = mu.concat(10, 2, 34, 5, [3, 4, 3]);
+console.log(cat);
+console.log(cat2);
+
+// slice (layer-via-copy)
+var result = cat.slice(2,5);
+console.log(result);
+
+// join (new string of all the values)
+// need to put space as join argument
+// if phrase had objects that weren't 
+//string it would call .toString() on them
+
+var phrase = ["these", "are", "cool", "words"];
+var full = phrase.join(" ");
+console.log(full);
+
+/*
+* Splice Method
+*/
+
+var num_array = [0, 1, 2, 3, 4, 5, 6];
+console.log(num_array);
+
+/* 
+* deletes the element at index 2, 
+* but doesn't fill empty space
+* delete num_array[2];
+*/
+
+/*
+* splice(starting index, number of elements being removed)
+*/
+num_array.splice(2, 2);
+console.log(num_array);
+
+/*
+* Using splice to insert
+*/
+num_array.splice(2, 0, "insert here");
+console.log(num_array);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
